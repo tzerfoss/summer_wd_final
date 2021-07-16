@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script> 
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div>
+      <h1>Tandi's Productivity Application</h1>
+      <input type="text" id="taskInput" />
+      <button onclick="addtask()">Add Task</button>
+      <ul id="taskList" class="TodoList">
+        <li></li>Close on House</li>
+        <li class="task done">Pest Controle Contract - Termite & Others</li>
+        <li class="task done">Sign-up for Utilities</li>
+
+      </ul>
+    </div>
+    <div id='pomodoro-container'>
+        <div id="pomodoro-clock"></div>
+        <div id="Timer">
+            <h1>25:00</h1> 
+        
+          <div id="pomotimer"></div>
+          <div id="pomodoro-clock-actions">
+             <div const startButton></div>
+             <button id="pomo-start">Start</button>
+             <div const pauseButton></div>
+             <button id="pomo-pause">Pause</button>
+            <div const stopButton></div>
+             <button id="pomo-stop">Stop</button>
+        
+    <br>
+        </div>
+       </div>
+    
+     
+    </div>
+      
+  </body>
+</html>
+
+
